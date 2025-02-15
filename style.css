@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+.Top>ul>li{
+
+    display: inline-block;
+}
+
+.top-icons{
+    margin-right: 8px;
+}
+
+
+.top-btn{
+    width: 75px;
+    background-color: #ffff;
+    border: none;
+}
+
+.Top{
+    background-color: #ededed;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.top-flag-icon{
+    width: 20px;
+    margin-left: 8px;
+}
+
+.page-links>a{
+
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.page-links{
+    font-size: 1.4rem;
+    
+}
