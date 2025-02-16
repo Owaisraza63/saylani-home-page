@@ -24,11 +24,12 @@ html{
 .top-btn{
     width: 75px;
     background-color: #ffff;
-    border: none;
+    border: 1px solid #d3d2d2;
 }
 
 .Top{
     background-color: #ededed;
+    color: #646363;
     font-size: 1.2rem;
     font-weight: bold;
 
@@ -42,10 +43,23 @@ html{
 .page-links>a{
 
     text-decoration: none;
-    color: rgb(85, 84, 84);
+    color: #555454;
+}
+
+.page-links>a:hover{
+    border-bottom: 2px solid green;
 }
 
 .page-links{
     font-size: 1.4rem;
-    
 }
+
+.nav-btn-2{
+    background-color: #8fc740;
+    border: 1px solid;
+}
+
+.navbar{
+    border-bottom: 2px solid #e5e3e3;
+}
+
