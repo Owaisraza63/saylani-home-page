@@ -1,9 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "poppins";
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+@font-face {
+    font-family: "apercu";
+    src: url(/accets/fonts/Apercu\ Font\ Family/);
+}
+
+
+.f-apercu{
+    font-family: "apercu";
+}
+
+.f-24{
+    font-size: 2.4rem;
+}
+.f-12{
+    font-size: 1.2rem;
+}
+
+.f-14{
+    font-size: 1.4rem;
+}
+
+.f-16{
+    font-size: 1.6rem;
+}
+
+.text-gray{
+    color: #3e3e3e
+}
+
+.bg-gray{
+    background-color: #d3d2d2;
+}
+
+/* @font-face {
+    font-family: "bulter";
+    src: url(./accets/fonts/Butler/Butler_Regular.otf);
+}
+
+.f-butler{
+    font-family: "butler";
+} */
+
 
 html{
     font-size: 62.5%;
@@ -62,4 +110,40 @@ html{
 .navbar{
     border-bottom: 2px solid #e5e3e3;
 }
+
+.text-light-green{
+    color: #8fc740;
+}
+
+.bg-light-green{
+    background-color: #8fc740;
+}
+
+.bg-light-green-2{
+    background-color: #e5fac4;
+}
+
+.welcome{
+    font-size: 3.8rem;
+}
+
+.donation-box{
+        background-color: #e5fac4;
+        border-radius: 15px;
+}
+
+/* .general-input[type = "text"]{
+    max-height:200px;
+} */
+
+.Welfare-box,
+.Mdical-box,
+.Online-sadqa,
+.Clean-water,
+.Education,
+.Food{
+    width: 15%;
+}
+
+
 
