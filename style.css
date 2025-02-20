@@ -184,9 +184,16 @@ html{
 }
 
 .container-7{
-    background-color: blue;
-    /* background: url("./accets/images/static-backgorund.png");
+    background: url("./accets/images/static-backgorund.png");
     background-repeat: no-repeat;
-    background-size: cover; */
-    max-height: 500px;
+    background-size: cover;
+    opacity: 0.8;
+    /* max-height: 500px; */
+    padding: 80px 0;
+}
+
+.c7-logo{
+
+    border-radius: 50%;
+    padding: 100px !important;
 }
